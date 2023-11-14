@@ -28,7 +28,7 @@ import ClientLayout from "../../components/ClientLayout";
 
 const MyRouter = () => {
   return (
-    <BrowserRouter basename="/click-coin/admin">
+    <BrowserRouter basename="/click-coin-admin">
       <Routes>
         <Route path="/" index element={<Signin />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
